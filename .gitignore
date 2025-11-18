@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+
+# macOS Finder files
+.DS_Store
+
+# VS Code configs
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files - we don't commit raw or large processed data
+data/raw/
+data/olist.duckdb
+data/processed/
+
+# Streamlit cache
+.streamlit/
